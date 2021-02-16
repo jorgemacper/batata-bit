@@ -8,8 +8,7 @@
   --black: #201e1c;
   --off-white: #faf8f7;
   --just-white: #fff;
-  --grey: #bababa;
-}
+  --grey: #bababa;}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -95,7 +94,7 @@ header img {
 main {
   width: 100%;
   height: auto;
-  background-color: var(--off-white);
+  background-color: #292b31;
 }
 .main-exchange-container {
   width: 100%;
@@ -125,14 +124,14 @@ main {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--black);
+  color: var(--just-white);
 }
 .main-exchange-container p {
   margin-bottom: 30px;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.6rem;
-  color: #757575;
+  color: #b1b1b1;
 }
 .main-currency-table,
 .main-commissions-table {
@@ -179,9 +178,9 @@ main {
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.9rem;
-  color: var(--grey);
+  color: #b1b1b1;
   /* border-bottom: 1px solid #faf8f7; */
-  background-color: var(--just-white);
+  background-color: #4a4e5a;
 }
 .currency-table--container .table__top-left,
 .commissions-table--container .table__top-left {
@@ -204,7 +203,7 @@ main {
   font-size: 1.4rem;
   font-weight: normal;
   line-height: 1.7rem;
-  color: #757575;
+  color: #b1b1b1;
 }
 .currency-table--container .up {
   display: inline-block;
@@ -232,7 +231,7 @@ main {
   margin: 0 auto;
   margin-top: 15px;
   padding: 8px;
-  background-color: var(--soft-orange);
+  background-color: #4a4e5a;
   border-radius: 8px;
 }
 .commissions-table--date {
@@ -241,7 +240,7 @@ main {
   margin: 0 auto;
   margin-top: 15px;
   padding: 8px;
-  background-color: var(--soft-blue);
+  background-color: #4a4e5a;
   border-radius: 8px;
 }
 .currency-table--date p,
@@ -249,6 +248,7 @@ main {
   margin: 7px;
   font-size: 1.2rem;
   line-height: 1.5px;
+  color: var(--just-white);
 }
 
 .main-product-detail {
@@ -385,14 +385,14 @@ main {
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--black);
+  color: var(--just-white);
 }
 .main-plans-container p {
   padding-top: 30px;
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
-  color: #757575;
+  color: #b1b1b1;
 }
 .plans-container--slider {
   display: flex;
