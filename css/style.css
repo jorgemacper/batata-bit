@@ -488,3 +488,51 @@ footer section {
   text-decoration: none;
   color: var(--just-white);
 }
+.main-qa {
+  width: 100%;
+  min-width: 288px;
+  max-width: 600px;
+  height: auto;
+  padding-bottom: 70px;
+  margin: 0 auto;
+}
+.main-qa h2 {
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+  text-align: center;
+  padding: 0 16px;
+}
+.main-qa--container {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.main-qa--container ul {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  list-style: none;
+}
+.main-qa--container ul li {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  background-color: #4a4e5a;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+.main-qa--container ul li a {
+  text-decoration: none;
+  color: #b1b1b1;
+}
+.main-qa--container ul li .down-arrow {
+  display: inline-block;
+  width: 12px;
+  height: 7px;
+  background: url('../assets/icons/down-arrow.svg') center/cover no-repeat;  
+  vertical-align: text-bottom;
+  right: 10px;
+}
